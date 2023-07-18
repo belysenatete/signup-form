@@ -1,0 +1,73 @@
+body{
+    background-color: #c9c4c0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 60em;
+    height: 40em;
+    background-color: #fbfaf8;
+    border-bottom-right-radius: 40px;
+}
+.form {
+    width: 30em;
+    padding: 50px 30px;
+}
+h1 {
+    letter-spacing: -2px;
+}
+p {
+    letter-spacing: -1px;
+    padding-bottom: 30px;
+}
+label {
+    font-size: 0.8em;
+}
+input {
+    margin-bottom: 30px;
+    width: 20em;
+    border: 1px solid #ebe9ea;
+    border-top: none;
+    border-left: none; 
+    border-right: none;
+    background-color:#fbfaf8 ;
+
+}
+button{
+    background-color: #fbfaf8;
+    margin-top: 10px;
+    width: 20.5em;
+    padding: 8px 20px;
+    border-radius: 7px;
+    border: 2px solid #ebe9ea;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: -1px
+}
+.CreateAccount {
+    background-color: black;
+    color: white;
+}
+.login {
+    margin-top: 50px;
+    text-align: center;
+    color: #777775;
+    font-size: 0.9em;
+}
+a {
+    color: black;
+    text-decoration: underline;
+}
+.image-container{
+    margin: 10px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    width: 50em;
+    background-color: #a08574;
+    
+}
+.image {
+    max-width: 80%;
+}
